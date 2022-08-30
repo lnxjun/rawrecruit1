@@ -1,0 +1,26 @@
+#include<stdio.h>
+#include<string.h>
+int	main(){
+	int	a,b,c,d=0;
+	for(b=1;b<=10;b++){
+		for(a=1,c=1;a<=b;a++){
+			c=c*a;
+		}
+		d=d+c;
+		printf("%d\n",d);
+		}
+  
+  
+  
+  
+	//使用while求阶乘 
+	//int	a=1,b=1,n;
+	//scanf("%i",&n); 
+	//while(a<n){
+	//	b=b*a;
+	//	a++;
+	//}
+	//printf("%d",b);
+	
+	return	0;
+}
