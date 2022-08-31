@@ -1,0 +1,17 @@
+#include<string.h>
+#include<stdio.h>
+int	main(){
+	int	a,b,c;
+	scanf("%d",&c);
+	for(a=1;a<=c;a++){
+		for(b=2;b<=a;b++){
+			if(a%b==0){
+				break;
+			}
+		}
+		if(b==a){
+			printf("%d\n",a);
+		}
+	}	
+	return	0;
+}
